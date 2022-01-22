@@ -1,0 +1,39 @@
+.header{
+    background-color: #1F98F0;
+    position: fixed;
+    order: -1;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+.header__container{
+   
+    @include flex;
+    justify-content: space-between;
+    padding: 35px 0px;
+   
+    
+}
+.logo{
+    display: block
+}
+.header__list{
+    @include flex;
+    @include reset-list;
+    margin-right: 250px;
+}
+.header__item{
+margin-right: 50px;
+}
+.header__nav-link{
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+color: #FFFFFF;
+
+opacity: 0.7;
+}
+ 

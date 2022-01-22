@@ -1,0 +1,77 @@
+.intro{
+    background-color: $accent-color;
+
+}
+.intro__container{
+  padding-top: 200px;
+  position: relative;
+  padding-bottom: 319px;
+//   background-image: url(../../img/eleps-bottom.png);
+background-image: url(../../img/intro-img.png);
+background-repeat: no-repeat;
+background-position: 600px;
+
+}
+.intro__title{
+    margin-top: 0;
+    color: #FFFFFF;
+font-weight: bold;
+font-size: 51px;
+line-height: 130%;
+/* or 66px */
+
+width: 500px;
+/* WHITE */
+
+color: #FFFFFF;
+}
+.intro-content{
+    width: 500px;
+}
+.intro__content::before{
+content: "";
+background-image: url(../../img/eleps-bottom.png);
+background-repeat: no-repeat;
+position: absolute;
+display: block;
+width: 330px;
+height: 330px;
+z-index: 2;
+bottom: -100px;
+right: 290px;
+}
+.intro__content::after{
+ content: "";
+ background-image: url(../../img/eleps-top.png);
+ background-repeat: no-repeat;
+ position: absolute;
+ display: block;
+ width: 330px;
+ height: 330px;
+ z-index: 2;
+ top: 75px;
+ right: -140px;
+}
+.intro__discription{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+
+/* WHITE */
+width: 500px;
+color: #FFFFFF;
+}
+.intro__play{
+  height: 60px;
+  margin-right: 10px;
+  width: 200px;
+  background-color: chartreuse;
+}
+.intro__play--play{
+    background-image: url(../../img/play.png);
+    @include bg-img;
+}

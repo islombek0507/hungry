@@ -1,0 +1,19 @@
+.foood {
+    background-color: $accent-color;
+}
+
+.food__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-top: 107px;
+    padding-bottom: 107px;
+}
+.food__title {
+    font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+margin: 0px;
+color: #FFFFFF;
+}

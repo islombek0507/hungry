@@ -1,0 +1,24 @@
+.logolar__container{
+    padding-top: 63px;
+    padding-bottom: 100px;
+}
+.logolar__text{
+    font-weight: 500;
+font-size: 21.4632px;
+line-height: 26px;
+color: #03101A;
+margin-bottom: 44px
+}
+.logolar__list{
+    @include flex;
+    @include reset-list;
+    justify-content: center;
+}
+.logolar__item{
+
+  margin-right: 113px;
+  
+}
+.logolar__item:nth-child(4n),.logolar__item:last-child{
+    margin-right: 0px;
+}
